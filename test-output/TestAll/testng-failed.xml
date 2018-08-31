@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestAll]">
+  <test name="order">
+    <classes>
+      <class name="Package2.Login_DP"/>
+    </classes>
+  </test> <!-- order -->
+  <test name="order(failed)">
+    <classes>
+      <class name="Package2.Login_DP">
+        <methods>
+          <include name="test"/>
+          <include name="update"/>
+        </methods>
+      </class> <!-- Package2.Login_DP -->
+    </classes>
+  </test> <!-- order(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
