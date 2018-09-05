@@ -10,7 +10,7 @@
     <classes>
       <class name="Package2.Login_DP">
         <methods>
-          <include name="test" invocation-numbers="0 1"/>
+          <include name="test" invocation-numbers="1"/>
           <include name="pre"/>
           <include name="tearDown"/>
         </methods>
